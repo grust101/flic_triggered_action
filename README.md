@@ -26,10 +26,11 @@ To trigger an action with a click of a Flic button, you'll need:
 3. When creating the Widget, give your Widget a descriptive name. _Example: GitHub Action Trigger_
 4. Select the pink :heavy_plus_sign: to add an Action
 5. Search for and select **GitHub** from the available Actions
-
 6. Authenticate into your GitHub account 
 7. Select the repository you'd like your Flic Action to target
-
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/18128948/54394944-9793c680-466b-11e9-9f07-542a3eaa9cdd.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+</p>
 
 8. Within that repository on GitHub, use the `repository_dispatch` event to trigger your workflow in your `main.workflow` file. 
 
