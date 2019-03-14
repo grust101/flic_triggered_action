@@ -52,7 +52,7 @@ To trigger an action with a click of a Flic button, you'll need:
 </p>
 
 
-6. Enter an **Event Type** (this is trivial for now and can be any value) and select the **repository** you'd like your Flic Action to target
+6. Enter an **Event Type** (this is trivial for now and can be any value) and select the **repository** you'd like your Flic Action to target and then click **Done**
 <p align="center">
    <img src="https://user-images.githubusercontent.com/18128948/54394944-9793c680-466b-11e9-9f07-542a3eaa9cdd.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 </p>
