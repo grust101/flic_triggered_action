@@ -28,7 +28,9 @@ To trigger an action with a click of a Flic button, you'll need:
 <p align="center">
    <img src="https://user-images.githubusercontent.com/18128948/54395445-0b829e80-466d-11e9-84fe-d35ddc7aea5f.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 </p>
+
 5. Search for and select **GitHub** from the available Actions
+
 <p align="center">
    <img src="https://user-images.githubusercontent.com/18128948/54395198-65369900-466c-11e9-88fd-25096e827731.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 </p>
@@ -39,14 +41,16 @@ To trigger an action with a click of a Flic button, you'll need:
 </p>
 
 
-7. Select the repository you'd like your Flic Action to target
+7. Enter an **Event Type** (this is trivial for now and can be any value) and select the **repository** you'd like your Flic Action to target
 <p align="center">
    <img src="https://user-images.githubusercontent.com/18128948/54394944-9793c680-466b-11e9-9f07-542a3eaa9cdd.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 </p>
 
 8. Within that repository on GitHub, use the `repository_dispatch` event to trigger your workflow in your `main.workflow` file. 
 
-Example `main.workflow ` file which will send a push notification to someone using [techulus/push-github-action](https://github.com/techulus/push-github-action) as the action but is triggered off the click of the Flic button through the `repository_dispatch` event. 
+## Example `main.workflow ` file
+
+This GitHub action will send a push notification to your phone using [techulus/push-github-action](https://github.com/techulus/push-github-action) as the action but is triggered off the click of the Flic button through the `repository_dispatch` event. 
    
 ```  
 workflow "Handle inbound event" {
