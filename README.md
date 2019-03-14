@@ -27,7 +27,7 @@ To trigger an action with a click of a Flic button, you'll need:
 </p>
 
 
-2. Once your Flic button is connected,click into **MyFlic** and rename your button a more descriptive name. _Example: GitHub Action Trigger_
+2. Once your Flic button is connected, click into **MyFlic** and rename your button a more descriptive name. _Example: GitHub Action Trigger_
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/18128948/54397899-4be61a80-4675-11e9-97e0-6631dd11291d.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
