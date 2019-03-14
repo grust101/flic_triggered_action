@@ -21,13 +21,12 @@ To trigger an action with a click of a Flic button, you'll need:
 - To download the [Flic app (iOS and Android available)](https://start.flic.io/) to your phone and create an account
 
 # Set Up
-1. Once you've downloaded the Flic app and created an account, tap the navigation in the top right corner and select **Widgets**
-2. Select the pink :heavy_plus_sign: to **Create Widget**
-3. When creating the Widget, give your Widget a descriptive name. _Example: GitHub Action Trigger_
-4. Select the pink :heavy_plus_sign: to add an Action
-<p align="center">
-   <img src="https://user-images.githubusercontent.com/18128948/54395445-0b829e80-466d-11e9-84fe-d35ddc7aea5f.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
-</p>
+1. Once you've downloaded the Flic app and created an account, click the pink :heavy_plus_sign: to **Add Flic to Phone** and connect your button.
+
+
+2. Once your Flic button is connected, name your button a descriptive name. _Example: GitHub Action Trigger_
+4. Select the pink :heavy_plus_sign: next to **Click** to associate an action to a click of the Flic button.
+
 
 5. Search for and select **GitHub** from the available Actions
 
