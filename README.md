@@ -28,7 +28,16 @@ To trigger an action with a click of a Flic button, you'll need:
 
 
 2. Once your Flic button is connected, name your button a descriptive name. _Example: GitHub Action Trigger_
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/18128948/54397899-4be61a80-4675-11e9-97e0-6631dd11291d.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+</p>
+
 3. Select the pink :heavy_plus_sign: next to **Click** to associate an action to a click of the Flic button.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/18128948/54397898-4be61a80-4675-11e9-819f-98ebdf354de4.gif" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+</p>
 
 
 4. Search for and select **GitHub** from the available Actions
