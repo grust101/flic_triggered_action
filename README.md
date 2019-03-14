@@ -23,11 +23,32 @@ To trigger an action with a click of a Flic button, you'll need:
 # Set Up
 1. Once you've downloaded the Flic app and created an account, tap the navigation in the top right corner and select **Widgets**
 2. Select the pink :heavy_plus_sign: to **Create Widget**
-3. When creating the Widget, first give your Widget a descriptive name. Example: GitHub Action Trigger
+3. When creating the Widget, give your Widget a descriptive name. _Example: GitHub Action Trigger_
 4. Select the pink :heavy_plus_sign: to add an Action
 5. Search for and select **GitHub** from the available Actions
+
 6. Authenticate into your GitHub account 
 7. Select the repository you'd like your Flic Action to target
+
+
+8. Within that repository on GitHub, use the `repository_dispatch` event to trigger your workflow in your `main.workflow` file. 
+
+Example `main.workflow ` file which will send a push notification to someone using [techulus/push-github-action](https://github.com/techulus/push-github-action) as the action but is triggered off the click of the Flic button through the `repository_dispatch` event. 
+   
+```  
+workflow "Handle inbound event" {
+  on = "repository_dispatch"
+  resolves = ["Send Push Notification"]
+}
+
+action "Send Push Notification" {
+   uses = "techulus/push-github-action@0.0.1"
+   secrets = ["API_KEY", "MESSAGE"]
+} 
+  ```
+  
+
+
 
 
 
