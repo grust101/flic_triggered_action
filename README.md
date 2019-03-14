@@ -1,5 +1,5 @@
-# flic_triggered_action
-Trigger a GitHub action by clicking a Flic button
+# GitHub Action Triggered by Flic Button
+Easily trigger GitHub Actions by clicking a Flic button.
 
 # What is a Flic button?
 Imagine a button that can control your smartphone or application. A button that you could use to take control of your apps without having to fumble with your phone every time you want to do something.
