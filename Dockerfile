@@ -1,7 +1,7 @@
 FROM debian:9.5-slim
 
 LABEL "com.github.actions.name"="Flic Triggered Action"
-LABEL "com.github.actions.description"="Write arguments to the standard output"
+LABEL "com.github.actions.description"="Easily trigger GitHub Actions by clicking a Flic button."
 LABEL "com.github.actions.icon"="mic"
 LABEL "com.github.actions.color"="purple"
 
